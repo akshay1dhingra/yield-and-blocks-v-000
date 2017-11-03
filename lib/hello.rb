@@ -1,9 +1,9 @@
 
 
-def hello_t(names)
-  names.each {|name| puts name}
-end
+def hello_t(array)
+  i = 0
 
-def hello_t(other_names)
-  names.each { |name| puts name.upcase }
+  while i < array.length
+    i = i + 1
+  end
 end
